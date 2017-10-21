@@ -1,0 +1,673 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 7em;
+
+}
+
+footer {
+  width: 100%;
+  height: 15em;
+
+
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  width: 100%;
+  height: 211.7em ;
+  background-image: url("http://adventinfosoft.com/wp-content/uploads/2016/06/1920x1200-3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+#hero{
+  width: 100%;
+  height: 61em;
+
+  /*background-image: url("#");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 7em;
+  /*background: darkgrey;
+  opacity: 10%;*/
+
+}
+
+#hero h1{
+  font-size: 7em;
+  margin-top: -.0001em;
+
+}
+
+#hero h2{
+  font-family: 'Poiret One', cursive;
+  font-size: 3em;
+
+}
+
+#imgSec{
+
+  width: 100%;
+  height: 30em;
+
+}
+
+#hero img {
+  width: 40%;
+  height: 40em;
+  opacity: .55;
+  border-radius: 3em;
+
+}
+
+
+
+
+
+
+
+#stickynav {
+  width: 100%;
+  height: 7em;
+  border: 1px solid lightgrey;
+
+}
+
+
+#myServices{
+  width: 100%;
+  height: 53.3em;
+  border: 1px solid lightgrey;
+}
+
+#myServicesTop{
+  width: 100%;
+  height: 30em;
+
+}
+
+#actualServices{
+  width: 100%;
+  height: 23.3em;
+  border: 1px solid lightgrey;
+}
+
+#callToAction{
+  width: 100%;
+  height: 7em;
+
+}
+
+#projects{
+  width: 100%;
+  height: 45em;
+
+}
+#contact{
+  width: 100%;
+  height: 53.3em;
+
+}
+
+
+#learnMore{
+
+  border: none;
+  background: none;
+  width: 20%;
+  height: 5em;
+  margin-left: 40%;
+  color: darkgrey;
+  /*float: left;*/
+}
+
+#learnMore i{
+  padding-left: 3%;
+  color: darkgrey;
+}
+
+#myServicesTop h2{
+  font-size: 3.5em;
+  font-family: inherit;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+.servicesBtn{
+  border-radius: 3em;
+  padding:1em 7% 1em 7%;
+  color: #9aeeee;
+  background: white;
+  margin-left: 40%;
+  border:1px solid grey;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+.services{
+  width: 25%;
+  height: 23.3em;
+  float: left;
+  border-right: 1px solid lightgrey;
+  padding-right: 1%;
+
+}
+#btnFour{
+
+  margin-top: -1em;
+}
+
+.services img{
+  width: 50%;
+  height: 50%;
+  margin: 3em 10% 0 0;
+}
+
+.services i{
+  font-size: 9em;
+  margin: .3em 10% .15em 10%;
+
+
+}
+
+.services button{
+  border-radius: 40em;
+  border: 1px solid lightgrey;
+  background: white;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 1em;
+  margin-top: 3em;
+  margin-left: 5%;
+
+
+}
+
+.services h2{
+  font-size: 1.5em;
+  color: darkgrey;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+#btnOne button{
+  border-radius: 1em 10em 1em 10em;
+}
+
+#btnOne img{
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+#btnTwo button{
+  border-radius: 1em 10em 1em 10em;
+}
+
+#btnTwo img{
+    margin-top: 4em;
+    margin-bottom: 3em;
+
+}
+
+
+
+#btnThree button{
+  border-radius: 1em 10em 1em 10em;
+
+}
+
+#btnThree img{
+  height: 6em;
+  width: 50%;
+  margin-bottom: 3em;
+  margin-top: 3.5em;
+
+}
+
+#btnFour button{
+  border-radius: 1em 10em 1em 10em;
+  margin-top: 4em;
+  padding-left: 33%;
+  padding-right: 37%;
+
+}
+
+#callToAction button{
+  border-radius: 3em;
+  border: 1.5px solid  #9aeeee;
+  background: white;
+  color: #9aeeee;
+  padding: 1% 3% 1% 3%;
+  font-size: 2em;
+  margin-top: .5em;
+  font-weight: lighter;
+
+}
+
+#callToAction span{
+  font-family: inherit;
+  font-weight: lighter;
+  color: grey;
+  margin-left: -50%;
+  width: 100%;
+  font-size: 3em;
+  height: 3em;
+
+}
+
+.btn{
+     background-color: white;
+     border:1px solid #9aeeee;
+     color: #9aeeee;
+     padding: 7px 14px;
+     margin-bottom: 0;
+     font-size: 14px;
+     font-weight: normal;
+     line-height: 1.5;
+     text-align: center;
+     white-space: nowrap;
+     vertical-align: middle;
+     cursor: pointer;
+     border-radius: 4px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     -o-user-select: none;
+     user-select: none;
+}
+#image-to-vote-on,#buttons-wrapper{
+     margin: 0 auto;
+     width: 500px;
+     text-align: center;
+     display: block;
+}
+#image-to-vote-on{
+     margin-top: 50px;
+}
+#buttons-wrapper{
+     margin-top:20px;
+}
+#image-to-vote-on+div{
+     text-align: center;
+     font-size: 24px;
+     color: green;
+}
+
+.contactOne{
+  width: 100%;
+  height: 15em;
+  background: white;
+  opacity: .3;
+  transform: translateY(-50%);
+}
+
+.contactOne Ul{
+  width: 100%;
+  height: 100%;
+
+}
+.contactOne li{
+  list-style: none;
+  font-size: 2.3em;
+  float: left;
+  width: 50%;
+  background: grey;
+  opacity: .65;
+  border: none;
+  margin-bottom: .5em;
+  color: #9aeeee;
+  padding-top: .02em;
+  padding-bottom: .03em;
+  border-radius: 10em;
+  padding-left: 5%;
+  margin-top: 1em;
+  color: #9aeeee;
+
+}
+
+
+
+.contactOne i{
+  margin-right: 1%;
+  /*border-right: 1.5px solid #9aeeee;*/
+  padding-right: .6%;
+  padding-left: 1.5%;
+  color: black;
+  border: none;
+
+}
+
+.contactOne a{
+  color: #9aeeee;
+  text-decoration: none;
+
+}
+
+#image-to-vote-on{
+  width: 50%;
+  height: 30em;
+}
+
+footer{
+  background: #ddd;
+
+}
+
+footer nav{
+  width: 100%;
+  height: 100%;
+  margin-left: 12.5%;
+}
+
+.footerTopUl li{
+  float: left;
+  list-style: none;
+  margin:1.5em 3% 0 0;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+footer button{
+  color: white;
+  background: #9aeeee;
+  font-weight: bold;
+  font-size: 2em;
+  border-radius: 1em 10em 1em 10em;
+  padding:.8em 30% .8em 30%;
+  font-weight: lighter;
+  font-family: 'Julius Sans One', sans-serif;
+
+
+}
+
+
+#skills button{
+  padding:.8em 60% .8em 60%;
+
+
+}
+
+#footerContact button{
+  margin-left: -23%;
+}
+
+#footerProjects button{
+  margin-left: -110%;
+}
+
+#footerServices button{
+  margin-left: -90%;
+}
+.footerBtn{
+  margin-right: 20%;
+}
+.footerBtn button{
+  margin-left: -100%;
+
+
+}
+
+#contactForm{
+  width: 100%;
+  height: 53.3em;
+
+}
+
+#contactForm h2{
+  width: 100%;
+  height: 5em;
+  font-size: 3em;
+  text-align: center;
+  color: #9aeeee;
+}
+
+#contactBot{
+  width: 100%;
+  height: 43em;
+
+  margin-top: -10em;
+  background: white;
+  opacity: .5;
+}
+
+#contactLeft{
+  width: 50%;
+  height: 43em;
+  float: left;
+
+}
+
+#contactRight{
+  width: 50%;
+  height: 43em;
+  float: left;
+}
+
+
+#contactLeftDiv{
+  width: 70%;
+  height: 20em;
+  background: white;
+  /*opacity: .5;*/
+  margin: 5em 0 0 30%;
+  font-size: 1.5em;
+}
+
+#contactBreak{
+  width: 250px;
+  height: 5px;
+  background: #9aeeee;
+  margin-bottom: 10px;
+
+}
+
+.contactTextOne{
+
+  font-family:'Poiret One', cursive;
+  font-size:1.7em;
+  margin-top: -.3em;
+}
+
+.contactTextTwo{
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: -.3em;
+}
+
+#contactInput{
+  width: 70%;
+  height: 20em;
+
+}
+
+#contactInputDiv{
+  color: #9aeeee;
+  width: 70%;
+  height: 20em;
+  margin-top: 5em;
+  margin-left: 7%;
+}
+
+#contactInput input{
+  background: none;
+  width: 140%;
+  height: 3em;
+  margin-top: 1em;
+  font-size: 1.25em;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 2em 0 2em 0;
+  /*color: #9aeeee;*/
+}
+
+#contactInput input:last-of-type{
+  width: 140%;
+  height: 10em;
+}
+
+#contactInputDiv button{
+  border:2px solid #9aeeee;
+  background: white;
+  color: #9aeeee;
+  border-radius: .5em;
+  padding: 1em 5% 1em 5%;
+  font-weight: bold;
+  margin:6em 0 0 80%;
+  font-size: 1.3em;
+}
+
+
+#stickyHeader{
+  width: 100%;
+  height: 7em;
+
+  /*position: absolute;*/
+  margin-top: -68em;
+  margin-bottom: 68em;
+
+}
+
+#stickyNav{
+  width: 100%;
+  height: 7em;
+
+}
+
+#navUl{
+  width: 100%;
+  height: 7em;
+
+  margin-top: 0;
+  padding-left: 25%;
+  padding-top: 1em;
+  background: #ddd;
+  opacity: .8;
+  /*display: flex;*/
+}
+
+.sticky{
+  position:fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+#navUl li{
+  float: left;
+  margin-left: 1%;
+  list-style: none;
+  margin-right: 6.5%;
+
+}
+#logo1{
+  font-size: 3.3em;
+  font-family: 'Sacramento', cursive;
+
+}
+
+#logo1 a{
+  text-decoration: none;
+  color: #9aeeee;
+  background: #bbb;
+  margin-left: -120%;
+}
+
+#logo2{
+
+  font-size: 7em;
+  font-family: 'Sacramento', cursive;
+  margin-top: .15em;
+
+}
+
+#logo2 a{
+  text-decoration: none;
+  color: #9aeeee;
+  background: #bbb;
+  margin:0 0 2em -40%;
+}
+
+#navUl button{
+  border-radius: 1em 10em 1em 10em;
+  color: #9aeeee;
+  background: white;
+  border: 1px solid #9aeeee;
+  font-size: 2em;
+  padding: .5em 35% .5em 35%;
+  margin-left: 10%;
+}
